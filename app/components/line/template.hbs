@@ -1,0 +1,17 @@
+<div class="line-container">
+  <div class="number">
+    {{#if cursorIsHere}}
+     <span class="relative">{{@number}}</span>
+    {{else}}
+      {{relativeNumber}}
+    {{/if}}
+  </div>
+  <div class="line">
+    {{#if cursorIsHere}}
+      <span class="cursor"></span>
+    {{/if}}
+  </div>
+  {{#if wordIsHere}}
+    <span>DELETE ME</span>
+  {{/if}}
+</div>

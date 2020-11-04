@@ -1,0 +1,7 @@
+{{#each lines as |line index|}}
+  <Line
+    @number={{index}}
+    @cursorPosition={{cursorPosition}}
+    @wordIndex={{wordIndex}}
+  />
+{{/each}}
